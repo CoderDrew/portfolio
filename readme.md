@@ -2,7 +2,7 @@
 
 This is a portfolio site that I built by going through Traversy Media's bootstrap 5 course.
 
-<img src="./images/screen.png" />
+<img src="./images/screenshot.png" />
 
 ## Features
 
