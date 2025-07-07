@@ -280,22 +280,32 @@
           </div>
 
           <!-- Form -->
-          <form name="contact" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="contact" />
-
-            <input type="text" name="name" placeholder="Name" required />
-            <input type="email" name="email" placeholder="Email" required />
-            <textarea name="message" placeholder="Message" required></textarea>
-
-            <button type="submit">Submit</button>
+          <form name="contact" netlify>
+            <div class="mb-5">
+              <input type="text"
+                class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                name="name" placeholder="Name" />
+            </div>
+            <div class="mb-5">
+              <input type="email"
+                class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                name="email" placeholder="Email" />
+            </div>
+            <div class="mb-5">
+              <textarea
+                class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="mb-5 d-grid">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
           </form>
-
         </div>
       </div>
       <!-- Footer -->
       <div class="d-flex mt-5">
         <p class="flex-grow-1">
-          Copyright &copy; 2025
+          Copyright &copy; 2023
         </p>
         <div class="hstack gap-3">
           <a class="text-decoration-none" href="https://www.linkedin.com/in/drew-reutlinger-31a324240/" target="_blank">
