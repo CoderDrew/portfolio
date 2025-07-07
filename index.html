@@ -283,27 +283,11 @@
           <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
 
-            <div class="mb-5">
-              <input type="text"
-                class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
-                name="name" placeholder="Name" required />
-            </div>
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message" required></textarea>
 
-            <div class="mb-5">
-              <input type="email"
-                class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
-                name="email" placeholder="Email" required />
-            </div>
-
-            <div class="mb-5">
-              <textarea
-                class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
-                name="message" placeholder="Message" required></textarea>
-            </div>
-
-            <div class="mb-5 d-grid">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
+            <button type="submit">Submit</button>
           </form>
 
         </div>
